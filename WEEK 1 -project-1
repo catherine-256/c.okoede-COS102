@@ -1,1 +1,32 @@
+# Python program to calculate Simple interest, Compound interest, and Annuity plan
+
+# Simple Interest
+Principal = 2
+Rate = 5
+Time = 3
+
+Simple_interest = Principal * (1 + (Rate / 100) * Time)
+
+print("The simple interest is ", Simple_interest)
+
+# Compound Interest
+P = 2
+N = 8
+T = 5
+R = 6
+
+A = P * (1 + (R / N)) ** (N * T)
+
+print("The compound interest is", A)
+
+# Annuity plan
+pmt = 8
+t = 2
+n = 5
+p = 4
+r = 6
+
+a = int((1 + r/n) ** (n * t) - 1) * pmt / (r / n)
+
+print("Annuity plan = ", a)
 
